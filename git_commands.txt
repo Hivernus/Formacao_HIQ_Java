@@ -1,0 +1,17 @@
+git init (Initialized empty Git repository in...)
+
+git status
+
+git clone https://github.com/Hivernus/Formacao_HIQ_Java.git
+(endereço retirado do rep. do github)
+
+git add --all
+git commit -m "inserir texto"
+
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+
+
+
+
+
