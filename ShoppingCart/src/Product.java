@@ -10,7 +10,7 @@ public class Product {
 	 * Attributes
 	 */
 	
-	int customer_id;
+	int id;
 	String name;
 	float price; //float -> 32 bits e double -> 64 bits
 	

@@ -8,19 +8,47 @@ public class ShoppingCart {
 	boolean finish;
 	Customer customer;
 	Product[] products;
+	int cartSize;
+	
 	/*
 	 * Actions
 	 */
 	
 	public void addProduct(Product product)
 	{
-		//TODO
+		//total = total + product.price;
+		//total += product.price;
+		//for (int i = 0; i < products.length; i++) 
+		//{
+			
+			//if(products[i] != null)
+			//	continue;
+			//products[i] = product;
+			
+			//if(products[i] == null)
+			//{
+			//	products[i] = product;
+			//	total += product.price;
+			//	break;
+		//	}
+		
+		//}
+		
+		if(cartSize < products.length)
+		{
+		products[cartSize++] = product;
+		total += product.price;
+		}
 		
 	}
 	
 	public void removeProduct(int id)
 	{
-		//TODO
+		for (int i = 0; i < products.length; i++) {
+			if(products[i].id == id){
+				
+			}
+		}
 	}
 	
 	public boolean isFinished()

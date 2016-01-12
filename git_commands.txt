@@ -18,6 +18,11 @@ git pull
 classe - definição de um tipo
 Objecto - instância de uma classe
 
+tipos de variáveis:
+double - 64 bits
+float - 32 bits
+
+
 
 
 
