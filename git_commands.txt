@@ -46,6 +46,13 @@ virgula flutuante - float, double
 System.out.println((10%2 == 0) ? "Par" : "Impar");
 
 % - resto da divisão
+
+-------------------
+Operator Precedences:
+1-parentheses
+2-increment/decrement ++i, i++, --i, i-- 
+3- * / %
+4- + -
  
 
 
