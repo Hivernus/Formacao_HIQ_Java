@@ -21,10 +21,31 @@ Objecto - instância de uma classe
 tipos de variáveis:
 double - 64 bits
 float - 32 bits
+--------------
+for(<instrução>;<condição boolean>;<instrução>)
 
+p.ex: for(;;) - neste caso a condição inicializa sempre a true; for(;true;)
 
+for (String arg : args) //foreach
+	System.out.println(arg);
+--------------
+tipos primitivos em java:
+short - 16 bits
+int - 32 bits
+float - 32 bits
+double - 64 bits
+char - 16 bits (hexadecimal)
+long - 64 bits
+byte - 8 bits
+boolean - depende da situação
 
+integrais - short, int, long, byte
+virgula flutuante - float, double
+----------------
 
+System.out.println((10%2 == 0) ? "Par" : "Impar");
 
+% - resto da divisão
+ 
 
 
