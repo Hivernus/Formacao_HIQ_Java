@@ -54,5 +54,7 @@ Operator Precedences:
 3- * / %
 4- + -
  
+-------------------
 
+o if é o resultado de uma expressao boolean
 

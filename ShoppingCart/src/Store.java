@@ -11,6 +11,8 @@ public class Store {
 		p1.setName("Batatas");
 		p1.setPrice(2.3F); //coloca-se sempre um F no final de uma variável do tipo float, caso contrário é um double
 		
+		System.out.println(p1);
+		
 		Product p2 = new Product();
 		p2.setId(2);
 		p2.setName("Couves");

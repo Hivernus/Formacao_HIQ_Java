@@ -1,5 +1,3 @@
-import sun.org.mozilla.javascript.internal.ast.ForInLoop;
-import sun.org.mozilla.javascript.internal.ast.ForLoop;
 
 public class Product {
 	
@@ -37,6 +35,26 @@ public class Product {
 	}
 	
  
+	@Override
+	public String toString(){
+		return new StringBuilder("{id: ")
+						.append(getId())
+						.append(", name: ")
+						.append(getName())
+						.append(", price: ")
+						.append(getPrice())
+						.append("}")
+						.toString();
+		
+		
+		
+	}
 	
+	@Override
+	public boolean equals(Object obj){
+		return this.getId() == ((Product)obj).getId() &&
+				this.getName().equals(((Product)obj).getName());
+		
+	}
 	
 }
