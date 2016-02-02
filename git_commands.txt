@@ -14,6 +14,7 @@ git config --global user.name "Your Name"
 git push
 git pull
 
+Comentar linha CTRL + 7(/)
 -----------------
 classe - definição de um tipo
 Objecto - instância de uma classe
@@ -57,4 +58,30 @@ Operator Precedences:
 -------------------
 
 o if é o resultado de uma expressao boolean
+
+-------------------
+Herança:
+
+Uma classe (filho) herda métodos e atributos da classe (pai).
+Não herda os construtores da classe.
+(os construtores não são herdados)
+
+extends (da super classe)
+classe 1
+	Classe 2
+		Classe 3
+			extends Class 2
+			extends Class 1 ERRADO!
+
+Polimorfismo:
+
+ter uma referência de algo, mas essa referência poder "transforma-se"
+em várias coisas.
+
+JUnit - testes unitários
+-------------------
+
+Uma classe abstracta pode ter métodos implementados uma interface não
+
+
 
